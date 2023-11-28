@@ -1,0 +1,23 @@
+site_name: Text Utilities Docs
+
+theme:
+  name: "material"
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.instant.progress
+    - navigation.instant.prefetch
+    - navigation.tracking
+
+plugins:
+  - search
+  - mkdocstrings
+
+nav:
+  - Home: index.md
+  - Test: test.md
+
+docs_dir: docsmd
+site_dir: docs
+
+repo_url: https://github.com/Joey1222/TextUtilities
